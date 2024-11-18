@@ -1,0 +1,18 @@
+useDynLib(fkms)
+
+importFrom("splines", "bs")
+importFrom("fda", "fourier")
+importFrom("fda", "create.bspline.basis")
+importFrom("fda", "int2Lfd")
+importFrom("fda", "bsplinepen")
+importFrom("mclust", "classError")
+importFrom("stats", "rmultinom")
+importFrom("stats", "lm")
+importFrom("stats", "rnorm")
+importFrom("stats", "runif")
+
+export("fkms")
+export("SampleFunc")
+
+exportPattern("^[[:alpha:]]+")
+

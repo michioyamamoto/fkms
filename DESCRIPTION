@@ -1,0 +1,15 @@
+Package: fkms
+Type: Package
+Title: Functional K-means clustering
+Version: 0.8
+Date: 2024-09-26
+Author: Michio Yamamoto
+Maintainer: Michio Yamamoto <yamamoto.michio.hus@osaka-u.ac.jp>
+Description: This package conducts the functional k-means clustering developed by Yamamoto and Terada (2024).
+License: GPL (>= 2)
+URL: http://michioyamamoto.com
+Repository: CRAN
+Depends: splines, fda, mclust
+Imports: splines, fda, mclust, stats
+
+
